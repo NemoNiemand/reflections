@@ -5,3 +5,11 @@ What happens when you initialize a repository?  What do you need to do to it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
     Using a staging area allows you to create logical clusters of files to group for commit vs. batch commits or one-off transfers
 
+How can you use a staging area to make sure that you have one commit per logical change?
+    As changes are made, you can move the files into the staging area
+    Use of the staging area allows you to compare staged files to the working director and recent commits
+    This in turn helps manage interrelated changes between multiple files and versions
+    
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+	Branches are useful when development objectives fork (e.g. different language versions, exploring problems)
+	
