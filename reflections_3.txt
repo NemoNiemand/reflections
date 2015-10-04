@@ -1,0 +1,35 @@
+Using diff to compare files:
+
+Changes can be compared using diff command, -u indicates unified format (ease of reading output)
+Basic function of version control is being able to spot where changes have occured and parse code quickly
+We will be using these reflection files to build-out future exercises, so they are important
+
+Question: "How could having easy access to your entire file history make you a more efficient programmer in the long term?"
+  - Understand how you thought about problems and tried to solve them
+  - Gives you ready to access code that can be reused to solve particular problems
+  - Allows you to spot systematic errors and show how you've learned / not learned
+  - Allows others to view your work and learn from your process (and vice versa)
+  
+  
+  Reflections on commit changes: manual versus automatic
+  - Auto Pro: ensures some consistency in commits so that if you forget they aren't lost
+  - Auto Con: interval is arbitrary and may result in code that is truncated or hard to track
+  - Manual pro: allows you to connect commits to specific changes at logical intervals
+  - Manual con: relies on the user to get the intervals correct and be consistent with the methodology
+  
+  
+  Why do some systems allow multiple file commits while others only allow singles?
+  - Multiple file commits are relevant for projects that required coordinated file groups (e.g. webpages)
+  - Single file commits are easier to maintain as a provider, and the cross-file check can still be accomplished
+  
+  How can you use the commands git log and git diff to view the history of files
+  - git log allows users to scroll through commits in reverse chronological order and find their unique ids (scroll down with arrows, q exits)
+  - git diff allows users to track changes between commits using the unique commit ids to identify before and after versions
+  
+  How might using version control make you more confident to make changes that could break something?
+  - If I had to try a solution that was iterative or had multiple, interdependent steps, this would enable me to make that change or find the fork in the development path where any type of issue was introduced
+  
+  Now that you have your workspace set up, what do you want to use Git for?
+  - Learning how to code in HTML5 and Javascript
+  - Writing better code in Python
+  - Understanding how to create more complex projects and code explorations with confidence
