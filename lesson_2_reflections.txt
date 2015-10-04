@@ -1,3 +1,7 @@
 What happens when you initialize a repository?  What do you need to do to it?
     Initializing the repository creates a .git file to allow git to recognize the folder as a repository
     You still need to add files to track and then execute your first commit
+    
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    Using a staging area allows you to create logical clusters of files to group for commit vs. batch commits or one-off transfers
+
