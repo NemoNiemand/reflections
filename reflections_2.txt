@@ -1,0 +1,11 @@
+Using diff to compare files:
+
+Changes can be compared using diff command, -u indicates unified format (ease of reading output)
+Basic function of version control is being able to spot where changes have occured and parse code quickly
+We will be using these reflection files to build-out future exercises, so they are important
+
+Question: "How could having easy access to your entire file history make you a more efficient programmer in the long term?"
+  - Understand how you thought about problems and tried to solve them
+  - Gives you ready to access code that can be reused to solve particular problems
+  - Allows you to spot systematic errors and show how you've learned / not learned
+  - Allows others to view your work and learn from your process (and vice versa)
