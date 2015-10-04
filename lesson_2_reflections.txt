@@ -19,3 +19,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together?  Why do we represent it in the digram the way we do?
     Merging two branches collapses all changes since the original parent into a single branch
     We represent it in the diagram the way we do to show that they were parallel paths that came together
+    
+What are the pros and cons of Git's automatic merging vs always doing it manually?
+    Pro: logic accelerates time it takes to incorporate non-overlapping changes
+    Con: still need to manually go back and fix/determine which overlapping changes take priority
