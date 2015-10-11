@@ -8,3 +8,16 @@ Describe the difference between forks, clones and branches.  When would you use 
     Branches: train of commits linking logical changes to a single starting point but reflecting new lines of development
     Clones: copies of all commits histories in a single repository stored remotely or locally.  Used to take exact copies without links back to originals.
     Forks: copies of all commit histories in a single repository stored remotely but with links back to original to show attribution and facilitate dialog
+    
+What is the benefit of having a copy of the last known state of the remote stored locally?
+    One can work offline on those commits without having to merge the history right away; this would be useful for group projects.
+    
+How would you collaborate without using Git or GitHub?  What would be easier?  What would be harder?
+    Simple changes made bilaterally between contributors could be done using docs and doc-compare
+    More complex changes and controlling the master file would be harder due to synching multiple offline changes
+
+When would you want to make changes in a separate branch rather than directly in master?  What benefit does each approach have?
+    Separate branches allow exploring different features or different permuations of the main branch.
+    Branches allow mulitple contributors to explore multiple, interlocking problems.
+    Ability to control and merge branches back into the master aids in project control.
+    
